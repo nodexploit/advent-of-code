@@ -1,0 +1,23 @@
+.idea/
+*.iml
+.DS_Store
+node_modules/
+target/
+build/
+out/
+.next/
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
