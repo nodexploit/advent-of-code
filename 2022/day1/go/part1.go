@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"sort"
 	"strconv"
 )
 
@@ -32,6 +33,10 @@ func main() {
 		}
 	}
 	fmt.Println(max)
+
+	sort.Sort(sort.Reverse(sort.IntSlice(elfSumCalories)))
+
+	fmt.Println(elfSumCalories[0] + elfSumCalories[1] + elfSumCalories[2])
 }
 
 // readInput loads the input file with -1 for whitespaces in a slice
