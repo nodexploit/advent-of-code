@@ -122,7 +122,7 @@ func Play2(winMoves map[Shape]Shape, elfShape Shape, selectedShape SelectedShape
 }
 
 func readInput() ([]Game, error) {
-	file, err := os.Open("../input.txt")
+	file, err := os.Open("./input.txt")
 	if err != nil {
 		return nil, err
 	}

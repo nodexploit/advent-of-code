@@ -6,6 +6,7 @@ target/
 build/
 out/
 .next/
+.vscode/
 
 # debug
 npm-debug.log*
@@ -24,3 +25,6 @@ yarn-error.log*
 
 # for rust
 *.rs.bk
+
+# for scala
+.metals/

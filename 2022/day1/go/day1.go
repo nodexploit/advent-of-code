@@ -41,7 +41,7 @@ func main() {
 
 // readInput loads the input file with -1 for whitespaces in a slice
 func readInput() ([]int, error) {
-	file, err := os.Open("../input.txt")
+	file, err := os.Open("./input.txt")
 	if err != nil {
 		return nil, err
 	}
